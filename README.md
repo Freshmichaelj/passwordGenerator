@@ -7,7 +7,8 @@ https://www.uic.edu/apps/strong-password/
 # Libraries
 Don't forget to install the required libraries, I used pip.
 
-> pip install tk 
+> pip install tk
+> 
 > pip install pillow
 
 
