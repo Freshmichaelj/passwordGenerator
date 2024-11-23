@@ -6,7 +6,10 @@ wordOptions = ['hello', 'hey', 'no', 'bye', 'hello',
                'nope', 'horse', 'purple', 'hat', 'run', 
                'bay', 'lifting', 'austin', 'detroit',
                 'DND', 'diva', 'playstation', 'xbox', 
-                'mom']
+                'mom', 'trend', 'artifical', 'shell', 
+                'venus', 'grimace', 'salvation', 'print',
+                'silver', 'bullet', 'fix', 'guerrilla', 
+                'brick', 'ratio', 'overwhelm', 'eject']
 wordInt = rn.randint(0,len(wordOptions) - 1)
 
 letterOptions = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',
@@ -15,7 +18,9 @@ letterOptions = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',
 letterInt = rn.randint(0, len(letterOptions) - 1)
 
 
-numberOptions = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+numberOptions = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
+                11, 12, 13, 14, 15, 16, 17, 18, 
+                19, 20]
 numberInt = rn.randint(0, len(numberOptions) - 1)
 
 
@@ -38,9 +43,7 @@ root.config(bg='blue')
 # Create buttons/labels
 welcome_label = Label(
     root,
-    text = "Welcome to your password generator\n"
-         "If you'd like to make it more complicated,\n"
-         "move the sliders to your wishes.",
+    text = "Welcome to your password generator",
     bg = 'blue',
     fg = 'white'
 )
